@@ -12,19 +12,17 @@ body {
   --background-color: #ebe4de;
 }
 .hero {
-  background-color: var(--background-color);
   opacity: 0.9;
   padding: 20px;
   width: 80%;
   margin: 0 auto 30px;
   margin-top: 56px;
-  display: block;
-  border: 1px solid var(--green-color);
+  border: 1px solid var(--pink-color);
 }
 
 .heropic {
   max-width: 245px;
-  border-radius: 70%;
+  border-radius: 4%;
   border: 1px solid var(--green-color);
 }
 
