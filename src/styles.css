@@ -3,10 +3,30 @@ body {
   font-family: "Khula", sans-serif;
   font-weight: 400;
 }
-.hero {
-  background-color: #f5f5f5;
-  opacity: 0.9;
+.navbar {
+  font-family: "Khula", sans-serif;
 }
+:root {
+  --green-color: #9b9a94;
+  --pink-color: #e0cbc4;
+  --background-color: #ebe4de;
+}
+.hero {
+  background-color: var(--background-color);
+  opacity: 0.9;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto 30px;
+  margin-top: 56px;
+  display: block;
+  border: 1px solid var(--green-color);
+}
+.heropic {
+  max-width: 245px;
+  border-radius: 50%;
+  border: 1px solid var(--green-color);
+}
+
 h1,
 h2,
 h3,
@@ -36,7 +56,7 @@ button {
 }
 hr {
   font-weight: bold;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   color: #9b9a94;
