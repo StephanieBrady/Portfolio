@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   font-family: "Khula", sans-serif;
   font-weight: 400;
+  background-color: #efe8eab9;
 }
 .navbar {
   font-family: "Khula", sans-serif;
@@ -11,41 +12,7 @@ body {
   --pink-color: #e0cbc4;
   --background-color: #ebe4de;
 }
-.hero {
-  opacity: 0.9;
-  padding: 20px;
-  width: 80%;
-  margin: 0 auto 30px;
-  margin-top: 56px;
-  border: 1px solid var(--pink-color);
-}
 
-.heropic {
-  max-width: 245px;
-  border-radius: 4%;
-  border: 1px solid var(--green-color);
-}
-
-.preservation-hero {
-  max-width: 400px;
-  max-height: 400px;
-  border: 1px solid var(--green-color);
-  border-radius: 2%;
-  height: fit-content;
-}
-.preservation-hero:hover {
-  opacity: 0.7;
-}
-.weather-hero {
-  height: fit-content;
-  max-width: 400px;
-  max-height: 400px;
-  border: 1px solid var(--green-color);
-  border-radius: 2%;
-}
-.weather-hero:hover {
-  opacity: 0.7;
-}
 h1,
 h2,
 h3,
@@ -82,4 +49,30 @@ hr {
 }
 footer {
   letter-spacing: 30px;
+}
+
+.hero {
+  opacity: 0.9;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto 30px;
+  margin-top: 100px;
+}
+
+.preservation-hero {
+  border-radius: 2%;
+  height: 200px;
+  width: 268px;
+}
+.preservation-hero:hover {
+  opacity: 0.7;
+}
+.weather-hero {
+  border-radius: 2%;
+  max-width: 50%;
+  height: 200px;
+  width: 268px;
+}
+.weather-hero:hover {
+  opacity: 0.7;
 }
