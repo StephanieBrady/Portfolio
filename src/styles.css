@@ -81,3 +81,15 @@ p {
   display: block;
   background-color: #f8f9fa;
 }
+.projects-h1 {
+  text-align: left;
+}
+.contact-h1 {
+  text-align: right;
+}
+.contact-paragraph {
+  text-align: right;
+}
+.contact-button {
+  text-align: right;
+}
