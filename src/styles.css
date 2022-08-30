@@ -3,6 +3,7 @@ body {
   font-family: "Khula", sans-serif;
   font-weight: 400;
   background-color: #efe8eab9;
+  margin-bottom: 40px;
 }
 .navbar {
   font-family: "Khula", sans-serif;
@@ -35,6 +36,15 @@ button {
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-size: 13px;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  padding: 7px;
+}
+button:hover {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 3px;
   border-radius: 4px;
@@ -50,6 +60,9 @@ hr {
 footer {
   letter-spacing: 30px;
 }
+p {
+  line-height: 1.7;
+}
 
 .hero {
   opacity: 0.9;
@@ -58,21 +71,9 @@ footer {
   margin: 0 auto 30px;
   margin-top: 100px;
 }
-
-.preservation-hero {
-  border-radius: 2%;
-  height: 200px;
-  width: 268px;
+.hero-apps {
+  background-color: #f8f9fa;
 }
-.preservation-hero:hover {
-  opacity: 0.7;
-}
-.weather-hero {
-  border-radius: 2%;
-  max-width: 50%;
-  height: 200px;
-  width: 268px;
-}
-.weather-hero:hover {
+.img-fluid:hover {
   opacity: 0.7;
 }
