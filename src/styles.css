@@ -108,6 +108,9 @@ p {
 .contact-paragraph {
   text-align: right;
 }
+.logo {
+  width: 45px;
+}
 a {
   color: var(--pink-color);
   text-decoration: none;
