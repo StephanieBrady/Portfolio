@@ -116,6 +116,7 @@ a:hover {
   color: var(--pink-color);
   font-size: larger;
   text-decoration: none;
+  font-weight: bolder;
 }
 .about-h1 {
   margin-bottom: -1.5rem;
