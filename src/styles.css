@@ -71,7 +71,14 @@ p {
   margin: 0 auto 30px;
   margin-top: 100px;
 }
-
+.preservationpic-homepage {
+  border: 1px solid rgb(144, 119, 119);
+  border-radius: 5%;
+}
+.weatherapppicture-homepage {
+  border: 1px solid rgb(144, 119, 119);
+  border-radius: 5%;
+}
 .img-fluid:hover {
   opacity: 0.7;
 }
@@ -88,8 +95,5 @@ p {
   text-align: right;
 }
 .contact-paragraph {
-  text-align: right;
-}
-.contact-button {
   text-align: right;
 }
