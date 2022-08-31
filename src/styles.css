@@ -110,10 +110,12 @@ p {
 }
 a {
   color: var(--pink-color);
+  text-decoration: none;
 }
 a:hover {
   color: var(--pink-color);
   font-size: larger;
+  text-decoration: none;
 }
 .about-h1 {
   margin-bottom: -1.5rem;
@@ -136,6 +138,11 @@ a:hover {
   display: block;
   text-align: center;
 }
-.projectpagebutton {
-  text-align: center;
+.contactlink {
+  color: #36393d;
+}
+.contactlink:hover {
+  color: #36393d;
+  font-size: 1rem;
+  font-weight: bolder;
 }
