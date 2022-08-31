@@ -97,3 +97,10 @@ p {
 .contact-paragraph {
   text-align: right;
 }
+a {
+  color: var(--pink-color);
+}
+a:hover {
+  color: var(--pink-color);
+  font-size: larger;
+}
