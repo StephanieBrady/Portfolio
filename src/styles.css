@@ -29,6 +29,7 @@ h1 {
   letter-spacing: 4px;
   font-size: 60px;
 }
+
 h3 {
   margin-top: -9px;
 }
@@ -82,11 +83,17 @@ p {
 .img-fluid:hover {
   opacity: 0.7;
 }
-
+.hero-picture {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 300px;
+  margin-top: 60px;
+  margin-left: auto;
+}
 .homepage-apps {
   text-align: center;
   display: block;
-  background-color: #f8f9fa;
+  background-color: var (--pink-color);
 }
 .projects-h1 {
   text-align: left;
@@ -103,4 +110,19 @@ a {
 a:hover {
   color: var(--pink-color);
   font-size: larger;
+}
+.about-h1 {
+  margin-bottom: -1.5rem;
+  letter-spacing: 4px;
+  font-size: 60px;
+  margin-top: 60px;
+}
+.about-header {
+  margin-bottom: -1.5rem;
+  letter-spacing: 4px;
+  font-size: 60px;
+  margin-top: 177px;
+}
+.about-section {
+  background-color: var (--pink-color);
 }
