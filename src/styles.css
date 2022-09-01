@@ -106,7 +106,7 @@ p {
   text-align: right;
 }
 .contact-paragraph {
-  text-align: right;
+  text-align: center;
 }
 .logo {
   width: 45px;
@@ -149,4 +149,19 @@ a:hover {
   color: #36393d;
   font-size: 1rem;
   font-weight: bolder;
+}
+.hero-paragraph {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.weather-hero-header {
+  font-size: 40px;
+}
+.gitfooter {
+  font-family: "Cormorant Garamond", serif !important;
+  color: var(--pink-color);
+  font-weight: bold;
+}
+.fa-brands {
+  color: var(--pink-color);
 }
