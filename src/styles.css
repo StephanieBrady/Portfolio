@@ -6,8 +6,9 @@ body {
   margin-bottom: 40px;
 }
 .navbar {
-  font-family: "Khula", sans-serif;
+  font-family: "Khula", sans-serif !important;
 }
+
 :root {
   --green-color: #9b9a94;
   --pink-color: #e0cbc4;
@@ -38,9 +39,12 @@ button {
   font-weight: 700;
   font-size: 13px;
   text-transform: lowercase;
+  border: 1px solid #b59aa1;
   letter-spacing: 3px;
   border-radius: 4px;
   padding: 7px;
+  transition: all 150ms ease-in-out;
+  box-shadow: 2px 2px #9b949842;
 }
 button:hover {
   font-family: "Cormorant Garamond", serif;
@@ -50,13 +54,14 @@ button:hover {
   letter-spacing: 3px;
   border-radius: 4px;
   padding: 7px;
+  transition: all 150ms ease-in-out;
 }
 hr {
   font-weight: bold;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  color: #9b9a94;
+  color: #b59aa1;
 }
 footer {
   letter-spacing: 30px;
@@ -110,6 +115,14 @@ p {
 }
 .logo {
   width: 45px;
+  color: #b59aa1;
+}
+.nav-name {
+  margin-right: 100px;
+  margin-left: -10px;
+  color: black;
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
 }
 a {
   color: var(--pink-color);
@@ -159,9 +172,12 @@ a:hover {
 }
 .gitfooter {
   font-family: "Cormorant Garamond", serif !important;
-  color: var(--pink-color);
+  color: #b59aa1;
   font-weight: bold;
 }
 .fa-brands {
-  color: var(--pink-color);
+  color: #b59aa1;
+}
+.shecodeslink {
+  color: #b59aa1 !important;
 }
